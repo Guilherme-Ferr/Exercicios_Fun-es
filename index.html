@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade</title>
+    <style>
+        *{
+            font-family: arial;
+        }
+        .exercicios{
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            height: 250px;            
+            margin-bottom: 30px;
+            border: solid black 1px;
+        }
+        #titulo{
+            width: 100%;
+            height: 50px;
+        }
+        textarea{
+            resize: none;
+        }
+        #resultadoExercicio{            
+            width: 499px;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: skyblue;
+        }        
+    </style>
+</head>
+
+<body>
+    <!-- EXERCICIO 1 -->
+    <div class="exercicios">
+        <h1>Exercício 1</h1>
+        <div>
+            Numero: <input type="text" id="numero" value="">
+        </div>
+        <button id="calcular">Calcular</button>
+        <div id="resultadoExercicio"></div>
+    </div>
+    <!-- EXERCICIO 2 -->
+    <div class="exercicios">
+        <div>
+            <h1>Exercício 2</h1>
+        </div>
+        <div>
+            Numero 1: <input type="text" id="exercicio2Numero1" value="">
+        </div>
+        <div>
+            Numero 2: <input type="text" id="exercicio2Numero2" value="">
+        </div>
+        <div>
+            <button id="exercicio2Calcular">Calcular</button>
+        </div>
+        <div id="resultadoExercicio"></div>
+    </div>
+
+    <!-- EXERCICIO 3 -->
+    <div class="exercicios">
+        <div>
+            <h1>Exercício 3</h1>
+        </div>
+        <div>
+            Nome: <input type="text" value="" id="nome">
+        </div>
+
+        <div>
+            Escolha o seu estado: 
+            <input type="radio" name="estado" value="SP" id="sp" checked>São Paulo
+            <input type="radio" name="estado" value="ES" id="es">Espírito Santo
+            <input type="radio" name="estado" value="MG" id="mg">Minas Gerais
+            <input type="radio" name="estado" value="RJ" id="rj"> Rio de Janeiro 
+        </div>
+        <div>
+            <button id="exercicio3Button">Resultado</button>
+        </div>
+        <div id="resultadoExercicio3"></div>
+    </div>
+    <!-- ATIVIDADE 4 -->
+    <div class="exercicios">
+        <h1>Exercício 04</h1>
+
+        <div>
+            Digite seu nome: <input type="text" value="" id="nome2">
+        </div>
+        <div>
+            Escolha as áreas de sua preferência:
+            <input type="checkbox" value="front-end" id="front">Front-end.
+            <input type="checkbox" value="back-end" id="back">Back-end.
+            <input type="checkbox" value="web-design" id="web">Web-design.
+            <input type="checkbox" value="bancoDeDados" id="banco">Banco de dados.
+            <input type="checkbox" value="programacaoMovel" id="movel">Programação para dispositivos móveis.
+        </div>
+        <div>
+            <button id="botao4">Resultado</button>
+        </div>
+        <div id="resultado4"></div>
+    </div>
+    <script src="./atividades.js"></script>
+</body>
+
+</html>
